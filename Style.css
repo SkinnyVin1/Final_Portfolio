@@ -4,7 +4,17 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color:#fff
 }
 body{
     background-color: #28282b;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+a{
+    text-decoration: none;
 }
