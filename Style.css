@@ -19,6 +19,11 @@ header{
     align-items: center;
     padding: 0 30px;
 }
+
+
+/*=================================================
+NAVIGATION BAR
+=================================================*/
 a{
     text-decoration: none;
 }
@@ -29,3 +34,68 @@ nav ul{
 nav ul li{
     list-style: none;
 }
+
+.logo{
+    border-width: 2px;
+    border-style: solid;
+    width: 100px;
+    height: 40px;
+
+    display: grid;
+    place-items: center;
+    transition: .5s ease-in-out;
+}
+.logo:hover{
+    border: none;
+    background-color: #fff;
+}
+.logo a{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.2rem;
+    transition: .5s ease-in-out;
+    padding: 6px;
+}
+.logo a:hover{
+    color:#28282b;
+    /* text-transform: uppercase; */
+}
+
+
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;     
+}
+nav ul li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+
+    background-color: #fff   ;
+    position: absolute;
+    top: 50%;
+    left: -8.5%;
+
+    transition: width 300ms ease-in-out;
+}
+nav ul li a:hover::after { 
+    width: 115%; 
+    }
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.hamburger span{
+    width: 30px;
+    height: 3.5px;
+    display: block;
+    margin: 5px auto;
+    background-color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
