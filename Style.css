@@ -4,7 +4,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    color:#fff
+    color:#fff;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #28282b;
@@ -124,7 +125,34 @@ Hero Section
     transform: translatey(-50%);
 }
 
-@media (max-width: 768px){
+.hero .content h2{
+    font-size: 2.5rem;
+}
+.content h1{
+    font-size: 6rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================================================
+Responsiveness
+=================================================*/
+
+@media (max-width: 915px){
     header{
         padding: 20px;
     }
@@ -133,15 +161,16 @@ Hero Section
     }
     .hamburger{
         display: block;
+        
     }
     .cover img{
         right: -45%;
     }
 
 }
-@media (max-width: 375px){
+@media (max-width: 450px){
     .cover img{
-        right: -100%;
+        right: -90%;
     }
 
 }
