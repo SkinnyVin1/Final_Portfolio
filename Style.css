@@ -134,7 +134,11 @@ Hero Section
     text-transform: uppercase;
     letter-spacing: 10px;
 }
-
+.content p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+}
 
 
 
