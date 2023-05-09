@@ -183,15 +183,11 @@ Hero Section
 
 
 
-
-
-
-
 /*=================================================
 Responsiveness
 =================================================*/
 
-@media (max-width: 915px){
+@media (max-width: 1024px){
     header{
         padding: 20px;
     }
@@ -210,6 +206,18 @@ Responsiveness
 @media (max-width: 450px){
     .cover img{
         right: -90%;
+    }
+    .content{
+        transform: translatey(10px);
+    }
+    .hero .content h2{
+        font-size: 1.5rem;
+    }
+    .content h1{
+        font-size: 4rem;
+    }
+    .content p{
+        font-size: 1rem;
     }
 
 }
