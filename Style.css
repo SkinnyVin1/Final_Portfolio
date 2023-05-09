@@ -129,19 +129,52 @@ Hero Section
 
 .hero .content h2{
     font-size: 2.5rem;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
 }
 .content h1{
-    font-size: 6rem;
+    font-size: 6.5rem;
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    /* letter-spacing: 5px; */
+    transition: .5s ease-in-out;
 }
 .content p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 500;
     word-break: break-word;
+    transition: .5s ease-in-out;    
 }
+.content button{
+    position: relative;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    width: 150px;
+    height: 50px;
+    background: none;
+    transition: .5s ease-in-out;
 
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.content button img{
+    position: absolute;
+    right: 20%;
+    max-width: 20px;
+    width: 100%;
+    transition: .3s ease-in-out;
+    filter: invert(100%);
+    
+}
+.content button:hover .arrow-img{
+    transform: translateX(3px);
+    filter: invert(40%);
+
+}
 
 
 
