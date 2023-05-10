@@ -176,7 +176,32 @@ Hero Section
 
 }
 
+.social-icons{
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    filter: invert(100%);
+}
+.social-icons img{
+    max-width: 60px;
+    width: 100%;
+    margin:  0 20px 0 20px;
+    padding: 15px;
 
+    /* border-width: 2px;
+    border-style: solid; */
+    border: 2px solid;
+    border-color: #000000;
+    transition: .3s ease-in-out;
+
+}
+.social-icons img:hover{
+    background-color: white;
+    border: none;
+    filter: invert(100%);
+    /* padding: 15px; */
+}
 
 
 
@@ -230,5 +255,5 @@ Responsiveness
     .content p{
         font-size: 1rem;
     }
-
+    
 }
