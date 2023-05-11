@@ -290,6 +290,7 @@ Responsiveness
 @media (max-width: 1024px){
     header{
         padding: 20px;
+        height: 20vh;
     }
     nav{
         display: none;
@@ -310,11 +311,15 @@ Responsiveness
  @media (max-width:900px){ 
 
     .section-tag{
-        top: 100px;
+        top: 120px;
         transform: rotate(-90deg);
     }
 } 
 @media (max-width: 450px){
+    header{
+        height: 11vh;
+        padding: 10px 25px;
+    }
     .cover img{
         right: -90%;
     }
