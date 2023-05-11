@@ -308,8 +308,10 @@ Responsiveness
 
 }
  @media (max-width:900px){ 
+
     .section-tag{
-        transform: translateY(10px);
+        top: 100px;
+        transform: rotate(-90deg);
     }
 } 
 @media (max-width: 450px){
