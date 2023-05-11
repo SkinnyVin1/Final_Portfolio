@@ -308,7 +308,9 @@ Responsiveness
 
 }
  @media (max-width:900px){ 
-    
+    .section-tag{
+        transform: translateY(10px);
+    }
 } 
 @media (max-width: 450px){
     .cover img{
