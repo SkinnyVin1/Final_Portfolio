@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
-    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Vin</title>
 </head>
 <body>
@@ -39,7 +40,7 @@
     <!-- Hero Section -->
     <div  class="hero">
         <div class="content">
-            <h2>Greetings!</h2>
+            <h2 data-aos="fade-up">Greetings!</h2>
             <h1>I'm Vince</h1>
             <p>Full-Stack Developer | UI/UX Designer | Graphic Designer</p>
             <button id="hire">HIRE ME <img src="./images/arrow.png" alt="arrow" class="arrow-img">
@@ -66,14 +67,14 @@
             <img src="./images/pfp.jpg" alt="">
         </div>
         <div class="about-content">
-            <div class="about-story">
-                <p>
+            <div class="about-story" >
+                <p data-aos="fade-up">
                     My passion for coding started at a young age and I've been honing my skills ever since. 
                     As a web developer, I enjoy the challenge of creating beautiful, functional, and user-friendly 
                     websites that meet the needs of businesses and individuals.
                 </p>
                 <br>
-                <p>
+                <p data-aos="fade-up">
                     My expertise includes HTML, CSS, JavaScript, PHP, and many other 
                     programming languages and frameworks. I am always on the lookout 
                     for new tools and technologies that can help me develop innovative 
@@ -123,5 +124,8 @@
 
     
 </body>
+<script>
+    AOS.init();
+  </script>
 <script src="script.js"></script>
 </html>
