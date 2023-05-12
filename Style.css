@@ -145,7 +145,7 @@ Hero Section
     height: 100vh;
     position: relative;
     overflow: hidden;
-    scroll-snap-align: end;
+    /* scroll-snap-align: end; */
     
 }
 .cover img{
@@ -249,7 +249,7 @@ About Me Section
     position: relative;
     width: 100%;
     height: 100vh;
-    scroll-snap-align: end;
+    /* scroll-snap-align: end; */
 
     display: flex;
     /* flex-wrap: wrap; */
@@ -277,6 +277,7 @@ About Me Section
 .pfp img:hover{
     filter: grayscale(0%);
     border: none;
+    border-radius: 0;
 }
 .about-content{
     width: 100%;
@@ -341,14 +342,14 @@ Project Section
     position: relative;
     width: 100%;
     height: 100vh;
-    scroll-snap-align: end;
+    /* scroll-snap-align: end; */
    
 }
 .contact-section{
     position: relative;
     width: 100%;
     height: 100vh;
-    scroll-snap-align: end;
+    /* scroll-snap-align: end; */
    
 }
 .section-tag{
