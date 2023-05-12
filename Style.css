@@ -269,7 +269,10 @@ About Me Section
     filter:grayscale(100%);
     /* border: 5px solid;
     border-color: #fff; */
+    border-radius: 30px;
     transition: .5s ease all;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+             -15px -15px 30px rgb(60, 60, 60);
 }
 .pfp img:hover{
     filter: grayscale(0%);
