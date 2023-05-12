@@ -8,7 +8,7 @@ hamburger.addEventListener("click", () =>{
 
 // LOADER===================================
 // Get the loader element
-const loader = document.querySelector('.loader');
+const loader = document.querySelector('.load');
 
 // Show the loader
 function showLoader() {
