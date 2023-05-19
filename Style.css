@@ -107,7 +107,7 @@ nav ul li a:hover::after {
 
 .hamburger{
   display: block;
-  cursor: pointer;
+  /* cursor: pointer; */
   /* padding: 10px; */
 }
 .bar{
@@ -196,7 +196,7 @@ Hero Section
     padding-left: 15px;
     align-items: center;
     margin-top: 20px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .content button img{
     position: absolute;
@@ -231,7 +231,7 @@ Hero Section
     border: 2px solid;
     border-color: #000000;
     transition: .5s ease-in-out;
-    cursor: pointer;
+    /* cursor: pointer; */
 
 }
 .social-icons img:hover{
