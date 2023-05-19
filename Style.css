@@ -393,9 +393,8 @@ Project Section
     margin-top: 4%;
     top: 50px;
     left: -50px;
-    background-color: #fff;
     height: 50px;
-    width: 150px;
+    width: 300px;
 
     display: flex;
     justify-content: center;
@@ -404,11 +403,10 @@ Project Section
     transform: rotate(-90deg);
 }
 .section-tag h1{
-    color: #28282b;
-    font-size: 1.3rem;
+    color: #fff;
+    font-size: 3rem;
     text-transform: uppercase;
-    font-style: italic;
-    font-weight: 900;   
+    font-weight: 200;   
     
 }
 
@@ -539,5 +537,9 @@ Responsiveness
         padding: 10px;
         margin: 0 10px;
         transform: translateX(-20px);
+    }
+    .section-tag{
+        left: -100px;
+        top: 100px;
     }
 }
