@@ -368,8 +368,8 @@ About Me Section
     background-color: #3a3a3d;
     border-radius: 10px;
     margin: 15px 0;
-    box-shadow: 10px 10px 25px rgb(25, 25, 25),
-             -10px -10px 25px rgb(35, 33, 33);
+    box-shadow: 10px 10px 20px rgb(25, 25, 25),
+             -10px -10px 20px rgb(35, 33, 33);
 }
 
 
